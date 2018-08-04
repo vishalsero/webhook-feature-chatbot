@@ -34,7 +34,7 @@ var textResponse = $speech;
 	textResponse = textResponse.replace(/\\n/g, '\n');
 
 	$response = new \stdClass();
-	$response->result->fulfillment->speech = textResponse;
+	$response->speech = textResponse;
 	$response->displayText = $speech;
 	$response->source = "webhook";
 }
