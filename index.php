@@ -32,11 +32,11 @@ Academia ERP is a comprehensive, scalable, highly reliable, secure and built on 
 
 	
 
-	$textResponse = $speech; 
-	$textResponse = $textResponse.replace(/\\n/g, '\n');
+	//$textResponse = $speech; 
+	//$textResponse = $textResponse.replace(/\\n/g, '\n');
 
 	$response = new \stdClass();
-	$response = array('speech'=>$textResponse);
+	$response = array('speech'=>$speech);
 	$response = array('fulfillment'=>$response);
 	$response = array('result'=>$response);
 	print_r($response);
