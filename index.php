@@ -34,7 +34,7 @@ Academia ERP is a comprehensive, scalable, highly reliable, secure and built on 
 
 	//$textResponse = $speech; 
 	//$textResponse = $textResponse.replace(/\\n/g, '\n');
-	$textResponse = preg_replace("/\r\n|\r|\n/",'<br/>',$textResponse);
+	$textResponse = preg_replace("/\r\n|\r|\n/",'<br/>',$speech);
 
 	$response = new \stdClass();
 	$response = array('speech'=>$textResponse);
