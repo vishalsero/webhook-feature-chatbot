@@ -30,7 +30,7 @@ Academia ERP is a comprehensive, scalable, highly reliable, secure and built on 
 			break;
 	}
 
-	var $textResponse = $speech;
+	$textResponse = $speech;
 
 	$response = new \stdClass();
 	$response->result->fulfillment->speech = $textResponse;
