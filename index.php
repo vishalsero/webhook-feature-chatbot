@@ -32,16 +32,20 @@ Academia ERP is a comprehensive, scalable, highly reliable, secure and built on 
 
 	
 
-		$response = new \stdClass();
+	$textResponse = $speech; 
+	$textResponse = $textResponse.replace(/\\n/g, '\n');
+
 	$response = new \stdClass();
-	$response = array('speech'=>$response);
+	$response = array('speech'=>$textResponse);
 	$response = array('fulfillment'=>$response);
 	$response = array('result'=>$response);
-	print_r($response);
-	die();
-	$response->result->fulfillment->speech = $speech;
+	//print_r($response);
+	//$response->result->fulfillment->speech = textResponse;
 	$response->displayText = $speech;
 	$response->source = "webhook";
+	
+	
+	echo json_encode($response);
 }
 else
 {
