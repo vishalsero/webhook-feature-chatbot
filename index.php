@@ -40,7 +40,8 @@ Academia ERP is a comprehensive, scalable, highly reliable, secure and built on 
 	$response1 = '[';
 	$response2 = ']';
 	$response = array('speech'=>$textResponse);
-	$response = array('messages'=>$response1.$response.$response2);
+	$res = $response1.$response.$response2;
+	$response = array('messages'=>$res);
 	$response = array('fulfillment'=>$response);
 	$response = array('result'=>$response);
 	//print_r($response);
