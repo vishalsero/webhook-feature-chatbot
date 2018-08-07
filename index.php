@@ -22,7 +22,7 @@ if($method == 'POST'){
 			$speech = "Yes, you can type anything here.";
 			break;
 			
-		case 'modules'
+		case 'modules':
 			$speech = "Academia has the multiple numbers of modules ranging from pre-admission to completion.
 Kindly find the list of the modules below-
 - Organization Setup
