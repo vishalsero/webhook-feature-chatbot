@@ -24,7 +24,7 @@ if($method == 'POST'){
 			
 		case 'modules':
 			$speech = "Academia has the multiple numbers of modules ranging from pre-admission to completion.
-Kindly find the list of the modules below-/n
+Kindly find the list of the modules below-
 - Organization Setup
 - Campaigns & Enquiries
 - Admission
