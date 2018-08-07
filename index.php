@@ -8,8 +8,7 @@ if($method == 'POST'){
 	$json = json_decode($requestBody);
 
 	$text = $json->result->action;
-	echo $text;
-	die();
+
 	switch ($text) {
 		case 'hi':
 			$speech = "Hi, Nice to meet you";
@@ -23,7 +22,7 @@ if($method == 'POST'){
 			$speech = "Yes, you can type anything here.";
 			break;
 			
-		case 'modules':
+		case 'Modules':
 			
 			$speech = "Academia has the multiple numbers of modules ranging from pre-admission to completion.
 Kindly find the list of the modules below-
