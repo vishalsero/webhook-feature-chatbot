@@ -23,36 +23,8 @@ if($method == 'POST'){
 			break;
 			
 		case 'modules':
-			echo "in modules";
-	                die();
-			$speech = "Academia has the multiple numbers of modules ranging from pre-admission to completion.
-Kindly find the list of the modules below-
-- Organization Setup
-- Campaigns & Enquiries
-- Admission
-- Student Information Management
-- Program & Courses
-- Timetable
-- Attendance
-- Exams & Transcripts
-- Fees & Payments
-- Integration with Accounting Software
-- Certificates & Documents
-- File Management
-- Transport Management
-- Resource Booking
-- Messaging Engine - SMS & Email
-- Scholarship & Sponsorship
-- Surveys
-- Integration with LMS
-- Employee Records
-- Student / Teacher Portals & Apps
-- Placement Management
-- User & Role Management
-- Front-desk Management
-- Security Gate Management
-- Completion Management
-- Dashboards & Reports";
+			$speech= "in modules";
+	               
 	break;
 		
 		default:
