@@ -53,6 +53,7 @@ Kindly find the list of the modules below-
 - Security Gate Management
 - Completion Management
 - Dashboards & Reports";
+	break;
 		
 		default:
 			$speech = "About Academia ERP-
