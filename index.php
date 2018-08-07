@@ -21,6 +21,38 @@ if($method == 'POST'){
 		case 'anything':
 			$speech = "Yes, you can type anything here.";
 			break;
+			
+		case 'modules'
+			$speech = "Academia has multiple number of modules ranging from pre-admissions to completion.
+
+Kindly find the list of the modules below-
+
+- Organization Setup
+- Campaigns & Enquiries
+- Admission
+- Student Information Management
+- Program & Courses
+- Timetable
+- Attendance
+- Exams & Transcripts
+- Fees & Payments
+- Integration with Accounting Software
+- Certificates & Documents
+- File Management
+- Transport Management
+- Resource Booking
+- Messaging Engine - SMS & Email
+- Scholarship & Sponsorship
+- Surveys
+- Integration with LMS
+- Employee Records
+- Student / Teacher Portals & Apps
+- Placement Management
+- User & Role Management
+- Front-desk Management
+- Security Gate Management
+- Completion Management
+- Dashboards & Reports";
 		
 		default:
 			$speech = "About Academia ERP-
