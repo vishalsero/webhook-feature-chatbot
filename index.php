@@ -54,7 +54,7 @@ Kindly find the list of the modules below-
 - Dashboards & Reports";
 	               
 	break;
-		case 'About ERP':
+		case 'AboutERP':
 		$speech = "About Academia ERP-
 Academia by Serosoft is an award-winning Student Information System powering over 200 institutions across the globe. The robust, feature-rich, analytics-equipped, user-friendly Academia - built on a cutting-edge and flexible architecture - enables educational institutions to automate & streamline their functions and processes for both learning and administration, from prospecting to graduation. It boasts of tremendous capability to handle multi-center operations as well.
 
