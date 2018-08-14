@@ -64,7 +64,7 @@ Academia by Serosoft is an award-winning Student Information System powering ove
 
 There are competing educational software available on the market which may seem similar to our solution, but majority of these are web-based applications with limited functionality, reporting and non-scalable in future. In addition, they all require extra customization in future to map with changing client processes. Moreover, there are problems of software integration with their system and adaptability to their requirements. 
 
-Academia ERP is a comprehensive, scalable, highly reliable, secure and built on latest technology stack to manage every aspect of education process and deliver the best possible user experience to educational institutions. Academia is highly configurable, scalable, feature rich, mobile ready and comes with extensive reporting capability from the start to serve the needs of a top-class Universities/Colleges/Schools. It will make processes efficient, optimize your resources, reduce your operational risk and focus on teacher & student success.";
+Academia ERP is a comprehensive, scalable, highly reliable, secure and built on latest technology stack to manage every aspect of education process and deliver the best possible user experience to educational institutions. Academia is highly configurable, scalable, feature rich, mobile ready and comes with extensive reporting capability from the start to serve the needs of a top-class Universities/Colleges/Schools. It will make processes efficient, optimize your resources, reduce your operational risk and focus on teacher & student success. ";
 			break;
 		default:
 			$speech = "Sorry, I didn't get that. Can you rephrase?";
