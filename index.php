@@ -62,6 +62,7 @@ Academia ERP is a comprehensive, scalable, highly reliable, secure and built on 
 			break;
 		default:
 			$speech = "Sorry, I didn't get that. Can you rephrase?"
+				break;
 	}
 
 	
