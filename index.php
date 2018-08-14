@@ -21,7 +21,11 @@ if($method == 'POST'){
 		case 'anything':
 			$speech = "Yes, you can type anything here.";
 			break;
-			
+		case 'BenefitsOfERP':
+			$speech = "Academia by Serosoft is an award-winning Student Information System powering over 200 institutions across the globe. The robust, feature-rich, analytics-equipped, user-friendly Academia - built on a cutting-edge and flexible architecture - enables educational institutions to automate & streamline their functions and processes for both learning and administration, from prospecting to graduation. It boasts of tremendous capability to handle multi-center operations as well.
+
+Academia ERP is a comprehensive, scalable, highly reliable, secure and built on latest technology stack to manage every aspect of education process and deliver the best possible user experience to educational institutions. Academia is highly configurable, scalable, feature rich, mobile ready and comes with extensive reporting capability from the start to serve the needs of a top-class Universities/Colleges/Schools. It will make processes efficient, optimize your resources, reduce your operational risk and focus on teacher & student success.";
+			break;
 		case 'Modules':
 			
 			$speech = "Academia has the multiple numbers of modules ranging from pre-admission to completion.
