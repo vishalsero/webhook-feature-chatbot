@@ -16,6 +16,7 @@ if($method == 'POST'){
 
 		case 'Demo':
 			$speech = "Sure, we’d love to. But before that we’d like to advise you to first take a brief online demo of the product. Kindly provide your basic details so that our team can reach out to you.
+
 Please follow this link: <a href='https://www.academiaerp.com/request-demo' target='_blank'>Demo</a>";
 			break;
 
