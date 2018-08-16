@@ -29,7 +29,7 @@ Academia ERP is a comprehensive, scalable, highly reliable, secure and built on 
 		case 'Modules':
 			
 			$speech = "Academia has the multiple numbers of modules ranging from pre-admission to completion.
-Kindly find the list of the modules below-
+Kindly find the list of the modules below:
 - Organization Setup
 - Campaigns & Enquiries
 - Admission
@@ -44,7 +44,8 @@ Kindly find the list of the modules below-
 - File Management
 - Transport Management
 - Resource Booking
-- Messaging Engine - SMS & Email
+- Messaging Engine
+- SMS & Email
 - Scholarship & Sponsorship
 - Surveys
 - Integration with LMS
