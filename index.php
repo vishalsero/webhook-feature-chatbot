@@ -70,11 +70,7 @@ There are competing educational software available on the market which may seem 
 Academia ERP is a comprehensive, scalable, highly reliable, secure and built on latest technology stack to manage every aspect of education process and deliver the best possible user experience to educational institutions. Academia is highly configurable, scalable, feature rich, mobile ready and comes with extensive reporting capability from the start to serve the needs of a top-class Universities/Colleges/Schools. It will make processes efficient, optimize your resources, reduce your operational risk and focus on teacher & student success. ";
 			break;
 		default:
-			$speech = "<select><option value='volvo'>Volvo</option>
-  <option value='saab'>Saab</option>
-  <option value='mercedes'>Mercedes</option>
-  <option value='audi'>Audi</option>
-</select>";
+			$speech = "Sorry, I didn't get that. Can you rephrase?";
 				break;
 	}
 
